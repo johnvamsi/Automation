@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite">
+    <listeners>
+					<listener   class-name="utilities.ExtentReportManager" />
+	</listeners>
+
+	<test name="Automation Tests">
+	<!--<parameter name="browser" value="chrome"/>-->
+		
+		<classes> 
+			 
+             
+							<class name="testCases.TC__001__Registration"/>
+					      	<class name="testCases.TC__002__Login"/>
+						  	<!--<class name="testCases.TC__003__LoginDDT"/>-->
+             
+       </classes>
+	
+	</test>
+
+</suite>
